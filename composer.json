@@ -1,5 +1,5 @@
 {
-    "name": "dinushchathurya/nationality-list",
+    "name": "IlyasDiker/nationality-list-fr",
     "description": "",
     "keywords": [],
     "type": "package",
@@ -8,12 +8,16 @@
         {
             "name": "dinushchathurya",
             "email": "dinushchathurya21@gmail.com"
+        },
+        {
+            "name": "Ilyas Benhssine",
+            "email": "ilyasbenhssine@gmail.com",
         }
     ],
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "Dinushchathurya\\NationalityList\\": "src/"
+            "IlyasDiker\\NationalityList\\": "src/"
         }
     }
 }
