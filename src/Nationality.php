@@ -1,6 +1,6 @@
 <?php
 
-namespace Dinushchathurya\NationalityList;
+namespace Ilyasdiker\NationalityList;
 
 class Nationality{
 	
