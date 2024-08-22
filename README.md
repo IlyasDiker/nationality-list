@@ -28,14 +28,14 @@
 
 via composer
 
-`composer require IlyasDiker/nationality-list-fr`
+`composer require ilyasdiker/nationality-list-fr`
 
 ## Usage 
 
 ### Get array of nationalities
 
 ```
-use  IlyasDiker\NationalityList\Nationality;
+use  ilyasdiker\NationalityList\Nationality;
 
 public function exampleFunction(){
 
@@ -46,7 +46,7 @@ public function exampleFunction(){
 ### As a select array with key,value
 
 ```
-use  IlyasDiker\NationalityList\Nationality;
+use  ilyasdiker\NationalityList\Nationality;
 
 public function exampleFunction(){
 
@@ -57,7 +57,7 @@ public function exampleFunction(){
 ### Get a random nationality
 
 ```
-use  IlyasDiker\NationalityList\Nationality;
+use  ilyasdiker\NationalityList\Nationality;
 
 public function definition(): array
 
