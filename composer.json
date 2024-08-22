@@ -1,5 +1,5 @@
 {
-    "name": "IlyasDiker/nationality-list-fr",
+    "name": "ilyasdiker/nationality-list-fr",
     "description": "",
     "keywords": [],
     "type": "package",
@@ -17,7 +17,7 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "IlyasDiker\\NationalityList\\": "src/"
+            "Ilyasdiker\\NationalityList\\": "src/"
         }
     }
 }
