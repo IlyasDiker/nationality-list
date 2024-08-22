@@ -11,6 +11,7 @@
 <h1 align="center">All Nationalities List</h1>
   <p align="center">
     This package is a Laravel package that contains all Nationalities.
+      Forked from dinushchathurya/nationality-list enhanced and translated to french
   </p><br><br>
 </div>
 
@@ -27,18 +28,43 @@
 
 via composer
 
-`composer require dinushchathurya/nationality-list`
+`composer require IlyasDiker/nationality-list-fr`
 
 ## Usage 
 
+### Get array of nationalities
+
 ```
-use  Dinushchathurya\NationalityList\Nationality;
+use  IlyasDiker\NationalityList\Nationality;
 
 public function exampleFunction(){
 
-    return Nationality::getNationalities(); // Returns all nationalities 
+    return Nationality::getNationalities(); // Returns all nationalities  `array`
 }
+```
 
+### As a select array with key,value
+
+```
+use  IlyasDiker\NationalityList\Nationality;
+
+public function exampleFunction(){
+
+    return Nationality::getNationalitiesAsSelectArray(); // Returns all nationalities `array`
+}
+```
+
+### Get a random nationality
+
+```
+use  IlyasDiker\NationalityList\Nationality;
+
+public function definition(): array
+
+    return [
+        'nationality' => Nationality::getRandomNationality(), // Random Nationality `string`
+    ]
+}
 ```
 
 ## Contributing
@@ -57,6 +83,7 @@ Don't forget to give the project a star! Thanks again!
 ## Author 
 
 Author [Dinush Chathurya](https://dinushchathurya.github.io/)
+Contributor [Ilyas Benhssine](https://ilyasdiker-v3-github-io.vercel.app/)
 
 ## License
 
