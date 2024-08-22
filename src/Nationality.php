@@ -2,6 +2,8 @@
 
 namespace Ilyasdiker\NationalityList;
 
+use Illuminate\Support\Arr;
+
 class Nationality{
 	
 	public static function getNationalities(){
